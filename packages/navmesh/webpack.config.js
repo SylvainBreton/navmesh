@@ -9,7 +9,7 @@ module.exports = function (env, argv) {
 
   return {
     context: path.join(root, "src"),
-    entry: "./index.ts",
+    entry: "./index.d.ts",
     output: {
       library: {
         name: "NavMesh",
